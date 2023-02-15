@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+    <title>Hotel Mono</title>
+
+</head>
+<body>
+    <section class="header ">
+        <nav>
+            <a href="index.html"><img src="hotel.png" ><h1>HOTEL MONO</h1></a>
+            <div class="nav-links" id="navLinks"><i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="#services">SERVICES</a></li>
+                    <li><a href="#rooms">ROOMS</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+        <div class="textbox">
+            <h1>WORLD'S POPULAR HOTEL</h1>
+            <p>Hotel Mono is a chic hideaway set in six historical shophouses of modern design. The beautifully rejuvenated buildings retain their original charm with <br>
+                characteristic air wells and Rococo-era windows, seamlessly interweaving with the culture of traditional Philippines and the city's urban bustle.</p>
+            <a href="" class="hero-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!---Services--->
+    <section class="services" id="services">
+        <div class="details">
+            <h1><br>Services We Offered</h1><hr class="line">
+        </div>
+        <div class="main-box">
+            <div class="box box-grey">
+              <div class="icon">
+                <i class="fa fa-calendar" ></i>
+              </div>
+              <h2><br>Appointment</h2>
+              <hr>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+              <a href="#">Read More</a>
+            </div>
+    
+            <div class="box box-red">
+              <div class="icon">
+                <i class="fa fa-shield"></i>
+              </div>
+              <h2><br>Security</h2>
+              <hr>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+              <a href="#" class="white-border">Read More</a>
+            </div>
+            
+            <div class="box box-grey">
+              <div class="icon">
+                <i class="fa fa-clock-o"></i>
+              </div>
+              <h2><br>FrontDesk</h2>
+              <hr>
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Assumenda labore.</p>
+              <a href="#">Read More</a>
+            </div>
+            <hr class="line">
+          </div>
+    
+        </div>
+    </section>
+  
+    <!--Rooms-->
+
+    <section class="rooms" id="rooms" >
+      <br><br><h1>Our Rooms</h1> <hr>
+      <div id="slider">
+      <input type="radio" name="slider" id="s1" checked>
+      <input type="radio" name="slider" id="s2">
+      <input type="radio" name="slider" id="s3">
+      <input type="radio" name="slider" id="s4">
+      <input type="radio" name="slider" id="s5">
+
+      <label for="s1" id="slide1"><img src="img1.jpg" alt=""></label>
+      <label for="s2" id="slide2"><img src="img2.jpg" alt=""></label>
+      <label for="s3" id="slide3"><img src="img3.jpg" alt=""></label>
+      <label for="s4" id="slide4"><img src="img4.jpg" alt=""></label>
+      <label for="s5" id="slide5"><img src="img5.jpg" alt=""></label>
+    </div>
+    </section>
+    <br><br><hr>
+    <!--About us-->
+
+  <section class="about" id="about"><br>
+    <div class="wrapper">
+      <h1>About Us</h1>
+      <div class="quote"><br> Hotel Mono is a chic hideaway set in six historical shop houses of modern design. The beautifully rejuvenated buildings retain original charm with characteristic airwells and Rococo-era windows; slipping into traditional Singapore and interweaving with the city's urban bustle.
+
+       <br> <br>Designed for the discerning traveller, each of our forty-six rooms offers stylish comfort and rest from the city’s buzz. Lighting bars frame the walls to brighten each room. Clean lines and neutral colours carefully enhance the minimalist beauty of each space.
+        
+       <br><br>Navigate the lively neighbourhood and beyond. Retreat to your tranquil space. Refresh yourself with our rain showers. Relax in our plush beds for a wonderful night’s rest.
+        
+         </div>
+    </div>
+    
+    <div style="height: 100px;"></div>
+  </section>
+
+  <!--Contact us-->
+  <section class="cont" id="contact">
+    
+    <div class="contactus">
+      <div class="title">
+        <h2>Contact Us</h2>
+      </div>
+      <div class="boxes">
+        <div class="contact form"><h3>Send a Message</h3>
+        <form>
+          <div class="formBox">
+            <div class="row50">
+              <div class="inputBox">
+                <span>First Name</span>
+                <input type="text" placeholder="">
+              </div>
+              <div class="inputBox">
+                <span>Last Name</span>
+                <input type="text" placeholder="">
+              </div>
+            </div>
+
+            <div class="row50">
+              <div class="inputBox">
+                <span>Email</span>
+                <input type="text" placeholder="johndoe@gmail.com">
+            </div>
+              <div class="inputBox">
+                <span>Mobile No</span>
+                <input type="text" placeholder="+639912345678">
+              </div>
+              
+            </div>
+            </div>
+
+            <div class="row100">
+              <div class="inputBox">
+                <span>Message</span>
+                <textarea placeholder="Write your message here..."></textarea>
+              </div></div>  
+
+              <div class="row100">
+                <div class="inputBox">
+                  <span></span>
+                  <input type="submit" value="Send">
+                </div>
+          </div>
+        </form></div>  
+       
+        <div class="contact info">
+          <h3>Contact Info</h3>
+          <div class="infoBox">
+            <div>
+              <span><ion-icon name="location"></ion-icon></span>
+              <p>Dasmariñas, Cavite <br> Philippines</p>
+            </div>
+            <div>
+              <span><ion-icon name="mail"></ion-icon></span>
+              <a href="mailto:hotelmono@gmail.com">hotelmono@gmail.com</a>
+            </div>
+            <div>
+              <span><ion-icon name="call"></ion-icon></span>
+              <a href="tel:+6399123456780">+6399123456780</a>
+            </div>
+            <ul class="sci">
+              <li><a href="#"><ion-icon name="logo-facebook"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-twitter"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+              <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+            </ul>
+          </div>
+        </div>
+
+
+        <div class="contact map">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3866.0561350049347!2d120.93440081535006!3d14.30817118801068!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d50b5d6dee61%3A0xc587e1ef7e8cacec!2sDasmari%C3%B1as%2C%20Cavite!5e0!3m2!1sen!2sph!4v1676434016585!5m2!1sen!2sph" 
+           style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+       </div>
+    </div>
+    
+  </section>
+    
+    <!---Javascript for toggles--->
+<script src="script.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
